@@ -9,21 +9,23 @@ html {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
   background-image: url(./images/bg-pattern.png);
   padding-top: 100px;
 }
 
 .searchCountry {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
 
 #country {
+  width: 30%;
   padding: 20px;
   font-size: 30px;
   border-radius: 40%;
@@ -31,4 +33,12 @@ body {
   cursor: pointer;
   outline: none;
   text-align: center;
+}
+
+.listCountry {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+  font-size: 24px;
 }
