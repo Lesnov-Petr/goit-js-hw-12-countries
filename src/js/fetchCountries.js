@@ -1,5 +1,4 @@
 import murkup from './markup.js';
-// import myError from './pnotify.js';
 import { error, defaultModules } from '@pnotify/core/dist/PNotify.js';
 import * as PNotifyMobile from '@pnotify/mobile/dist/PNotifyMobile.js';
 import '@pnotify/core/dist/PNotify.css';
