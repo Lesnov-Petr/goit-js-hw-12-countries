@@ -42,3 +42,20 @@ body {
   padding-top: 30px;
   font-size: 24px;
 }
+
+.itemCountry {
+  display: inline;
+}
+
+.description {
+  display: inline-block;
+}
+
+.listLanguages {
+  padding: 0;
+  list-style: none;
+}
+
+.itemLanguages {
+  padding-left: 30px;
+}
